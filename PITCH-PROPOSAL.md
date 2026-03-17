@@ -448,14 +448,14 @@ Even at the conservative end, the ROI is **3-10x**.
 
 **Phone Geetha**
 
-[Your Email] | [Your Phone] | [Your Website]
+work.samsolanki@gmail.com | [www.sakshamsolanki.com](https://www.sakshamsolanki.com/)
 
-[Book a 30-Minute Strategy Call →]
+[Book a 30-Minute Strategy Call →](https://www.sakshamsolanki.com/)
 
 ---
 
 *"ElectricPe has the scale to dominate organic search and paid acquisition in India's EV market. It simply needs to make that scale visible to the digital world."*
 
-*— Phone Geetha, March 2026*
+*— Harsh Dhull, Phone Geetha, March 2026*
 
 </div>

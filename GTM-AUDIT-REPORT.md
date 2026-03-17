@@ -3,7 +3,7 @@
 
 **Audit Date:** March 17, 2026
 **Prepared For:** ElectricPe — India's Largest EV Retail Network
-**Prepared By:** [Your Agency Name]
+**Prepared By:** Phone Geetha (www.sakshamsolanki.com)
 **Audit Type:** Complimentary GTM & Tracking Infrastructure Assessment
 **Domain:** https://electricpe.com
 **Tech Stack:** Next.js (React SSR), WebEngage, Razorpay
@@ -638,9 +638,8 @@ We specialize in building measurement infrastructure for high-growth companies. 
 
 We'd love to walk you through this audit in a 30-minute call and show you exactly how we'd implement the solution.
 
-**Book a call:** [Your Booking Link]
-**Email:** [Your Email]
-**Phone:** [Your Phone]
+**Email:** work.samsolanki@gmail.com
+**Website:** [www.sakshamsolanki.com](https://www.sakshamsolanki.com/)
 
 ---
 
