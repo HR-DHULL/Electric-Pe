@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElectricPe — Digital Growth Audit & Service Proposal</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    background: #ffffff;
+    line-height: 1.4;
+    font-size: 11pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ==================== PAGE STRUCTURE ==================== */
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+    page-break-after: always;
+    padding: 0;
+  }
+
+  .page-cover {
+    padding: 1.44in 0.72in 0.72in 0.72in;
+  }
+
+  .page-first {
+    padding: 1.44in 0.72in 0.72in 0.72in;
+  }
+
+  .page-body {
+    padding: 0.72in 0.72in 0.72in 0.72in;
+  }
+
+  /* ==================== COVER PAGE ==================== */
+  .cover-company {
+    font-size: 30pt;
+    font-weight: bold;
+    color: #1B3A5C;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+
+  .cover-title {
+    font-size: 20pt;
+    color: #2E75B6;
+    margin-bottom: 12px;
+  }
+
+  .cover-subtitle {
+    font-size: 12pt;
+    font-style: italic;
+    color: #666666;
+    margin-bottom: 80px;
+  }
+
+  .cover-meta {
+    font-size: 11pt;
+    color: #444444;
+    line-height: 2;
+  }
+
+  /* ==================== HEADINGS ==================== */
+  h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #1B3A5C;
+    margin: 28px 0 12px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2E75B6;
+  }
+
+  h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #2E75B6;
+    margin: 22px 0 8px 0;
+  }
+
+  h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #444444;
+    margin: 16px 0 6px 0;
+  }
+
+  /* ==================== BODY TEXT ==================== */
+  p {
+    margin-bottom: 10pt;
+    font-size: 11pt;
+    color: #222222;
+    line-height: 1.4;
+  }
+
+  strong { font-weight: bold; }
+
+  .muted { color: #666666; font-size: 10pt; }
+
+  /* ==================== LISTS ==================== */
+  ul, ol {
+    margin: 6px 0 10pt 24px;
+    font-size: 11pt;
+    color: #222222;
+  }
+
+  li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+
+  /* ==================== TABLES ==================== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 14px 0;
+    font-size: 10pt;
+  }
+
+  thead th {
+    background: #1B3A5C;
+    color: #ffffff;
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt;
+    border: 1px solid #1B3A5C;
+  }
+
+  tbody td {
+    padding: 6px 10px;
+    border: 1px solid #dddddd;
+    color: #222222;
+    vertical-align: top;
+    line-height: 1.4;
+  }
+
+  tbody tr:nth-child(even) { background: #F7F9FC; }
+
+  /* ==================== PAGE FOOTER ==================== */
+  .page-footer {
+    position: absolute;
+    bottom: 0.5in;
+    left: 0.72in;
+    right: 0.72in;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8pt;
+    color: #999999;
+    border-top: 1px solid #dddddd;
+    padding-top: 6px;
+  }
+
+  /* ==================== COVER BOTTOM ==================== */
+  .cover-bottom {
+    position: absolute;
+    bottom: 0.72in;
+    left: 0.72in;
+    right: 0.72in;
+  }
+
+  .cover-bottom-line {
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    margin-bottom: 12px;
+  }
+
+  .cover-branding {
+    font-size: 10pt;
+    color: #666666;
+  }
+
+  /* Compact spacing for dense pages */
+  .compact p { margin-bottom: 8px; }
+  .compact table { margin: 8px 0 12px; }
+  .compact h2 { margin: 16px 0 6px; }
+  .compact ul { margin: 4px 0 8px 24px; }
+  .compact li { margin-bottom: 3px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                        PAGE 1: COVER                              -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-cover">
+  <div class="cover-company">ELECTRICPE</div>
+  <div class="cover-title">DIGITAL GROWTH AUDIT & SERVICE PROPOSAL v1.0</div>
+  <div class="cover-subtitle">From Invisible Digital Infrastructure to Full-Stack Growth Engine</div>
+
+  <div class="cover-meta">
+    Prepared for: ElectricPe Leadership Team<br>
+    Prepared by: Phone Geetha — Strategic Advisory<br>
+    Date: March 2026<br>
+    Classification: Confidential
+  </div>
+
+  <div class="cover-bottom">
+    <div class="cover-bottom-line"></div>
+    <div class="cover-branding">
+      Phone Geetha &nbsp;|&nbsp; work.samsolanki@gmail.com &nbsp;|&nbsp; www.sakshamsolanki.com
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                   PAGE 2: EXECUTIVE SUMMARY                       -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-first">
+  <h1>Executive Summary</h1>
+
+  <p>ElectricPe sits at a critical inflection point. With 15,000+ charging stations, 35+ Mobility Centres, 80,000+ community members, a Google Maps partnership, and $11.4M raised across 8 funding rounds, the company has built <strong>India's largest EV retail network</strong>. The product-market fit is undeniable. The super-app model (Buy + Charge + Finance + Service) is genuinely unique — no competitor combines all four.</p>
+
+  <p>The problem is singular and severe: <strong>the digital infrastructure doesn't match the ambition.</strong> ElectricPe's website is working at less than 15% of its potential. The growth readiness score across three audits tells the story:</p>
+
+  <table>
+    <thead>
+      <tr><th>Audit Area</th><th>Score</th><th>Status</th><th>Key Finding</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>SEO Health</td><td>38/100</td><td>Poor</td><td>No sitemap, ~15 pages indexed, 3-way URL cannibalization</td></tr>
+      <tr><td>Ads & Marketing</td><td>8/100</td><td>Critical</td><td>Zero paid advertising on any platform</td></tr>
+      <tr><td>GTM & Tracking</td><td>12/100</td><td>Critical</td><td>No GTM, no GA4, no data layer, 0/22 checks passed</td></tr>
+    </tbody>
+  </table>
+
+  <p>This audit reframes ElectricPe's growth challenge around a single thesis: <strong>the highest-leverage move is not selling more EVs — it's making the existing scale visible to the digital world.</strong> Every day, potential EV buyers visit electricpe.com, browse vehicles, check charging stations, and interact with the test ride booking flow. The company has zero visibility into which marketing channels drive bookings, what the cost per test ride is, or where users drop off.</p>
+
+  <p><strong>You're running a Rs 13+ Crore business with the measurement maturity of a personal blog.</strong></p>
+
+  <table>
+    <thead>
+      <tr><th>Metric</th><th>Current State</th><th>90-Day Target</th><th>12-Month Target</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Google Indexed Pages</td><td>~15</td><td>500+</td><td>2,000+</td></tr>
+      <tr><td>Monthly Test Ride Bookings (Paid)</td><td>0</td><td>500–1,500</td><td>3,000–5,000</td></tr>
+      <tr><td>GTM Health Score</td><td>12/100</td><td>75+/100</td><td>90+/100</td></tr>
+      <tr><td>Conversion Tracking Accuracy</td><td>0%</td><td>95%+</td><td>99%</td></tr>
+      <tr><td>Monthly Revenue from Digital</td><td>Rs 0 (unmeasured)</td><td>Rs 15L–1.2Cr</td><td>Rs 1.5–3Cr</td></tr>
+      <tr><td>Cost per Test Ride Booking</td><td>N/A</td><td>Rs 500–1,200</td><td>Rs 300–800</td></tr>
+      <tr><td>Retargeting Audience Size</td><td>0</td><td>50,000–100,000</td><td>500,000+</td></tr>
+    </tbody>
+  </table>
+
+  <p>The competitive window is narrowing. The Bolt.Earth + Statiq interoperability alliance means users can now charge across 110,000+ chargers without an aggregator. Statiq ($18M raised), Ather (800K+ Instagram followers), and Tata Power are spending aggressively on digital. Every month without action widens their lead.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 2</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                  PAGE 3: STRATEGIC DIAGNOSIS                      -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body">
+  <h1>1. Strategic Diagnosis</h1>
+
+  <h2>1.1 The Core Problem</h2>
+
+  <p>ElectricPe has a measurement and distribution problem, not a product problem. The business model works — 6,000+ EVs sold, 4.4-rated app, Google Maps partnership. But the digital infrastructure is broken at every layer. This creates four structural vulnerabilities:</p>
+
+  <ul>
+    <li><strong>Blind operations:</strong> No Google Tag Manager installed. No GA4. No data layer. 0 of 22 tracking checks passed. Every tracking change requires a developer deploy (3-7 days vs. minutes with GTM). The test ride booking — ElectricPe's most important conversion event — has zero connection to any analytics or advertising platform.</li>
+    <li><strong>Zero paid acquisition:</strong> No paid advertising exists on any platform. Google Ads Transparency Center and Meta Ad Library show nothing. While competitors spend aggressively, ElectricPe has no scalable digital acquisition channel.</li>
+    <li><strong>Invisible to search:</strong> Only ~15 pages indexed by Google, when 500-2,000+ should be indexed. Missing XML sitemap. Three competing URLs for the most valuable keyword ("EV charging stations"). Blog has 2 posts in 2+ years.</li>
+    <li><strong>Broken attribution:</strong> Razorpay is integrated for payments, but no cross-domain tracking is configured. Every payment completion counts as a new session. The original traffic source is lost. You literally cannot calculate ROI on any marketing channel.</li>
+  </ul>
+
+  <h2>1.2 What ElectricPe Has (Untapped Assets)</h2>
+
+  <table>
+    <thead>
+      <tr><th>Asset</th><th>Scale</th><th>Untapped Digital Potential</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Charging Network</td><td>15,000+ stations</td><td>Each station = a local SEO landing page opportunity</td></tr>
+      <tr><td>Mobility Centres</td><td>35+ locations in 24+ cities</td><td>Each city = a geo-targeted paid campaign</td></tr>
+      <tr><td>Community</td><td>80,000+ Club Electric members</td><td>Upload to Meta = 3-5M lookalike audience</td></tr>
+      <tr><td>App</td><td>4.4 rating, both stores</td><td>Google App Campaigns + Meta App Install</td></tr>
+      <tr><td>Test Ride Offer</td><td>Rs 299 (low friction, high value)</td><td>Best-in-class paid ads CTA (3-5% expected CVR)</td></tr>
+      <tr><td>Google Maps Partnership</td><td>Real-time availability</td><td>No competitor has this — use in every ad</td></tr>
+      <tr><td>Multi-Brand Catalog</td><td>25+ EV models</td><td>Competitor keyword campaigns (Ola, Ather, TVS)</td></tr>
+      <tr><td>EV Financing</td><td>EMI options available</td><td>"EMI from Rs 3,999/mo" = high-converting copy</td></tr>
+    </tbody>
+  </table>
+
+  <h2>1.3 Competitive Landscape</h2>
+
+  <p>The most important insight from the competitive analysis: <strong>every major competitor is running paid digital acquisition at scale, and ElectricPe is the only player with zero presence.</strong></p>
+
+  <table>
+    <thead>
+      <tr><th>Competitor</th><th>Funding</th><th>Digital Ad Presence</th><th>ElectricPe's Advantage</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Tata Power EZ Charge</td><td>Corporate-backed</td><td>Very High — enterprise digital</td><td>Super-app model + test ride CTA</td></tr>
+      <tr><td>Ather Energy</td><td>$400M+</td><td>Very High — 800K+ Instagram</td><td>Multi-brand vs single-brand</td></tr>
+      <tr><td>Ola Electric</td><td>$800M+</td><td>Very High — mass market</td><td>25+ models vs 1 brand</td></tr>
+      <tr><td>Statiq</td><td>$18M (YC + Shell)</td><td>High — expanding to 20K chargers</td><td>Physical retail + financing</td></tr>
+      <tr><td>ChargeZone ($106M)</td><td>$106M</td><td>Medium — active content</td><td>Community + app ecosystem</td></tr>
+    </tbody>
+  </table>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 3</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                    PAGE 4: SEO AUDIT                              -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body compact">
+  <h1>2. SEO Audit — Score: 38/100</h1>
+
+  <h2>2.1 The Three Most Damaging SEO Issues</h2>
+
+  <p><strong>Issue #1: Missing XML Sitemap.</strong> The /sitemap.xml returns empty or no data. This is the single most impactful technical SEO failure. With 15,000+ charging stations, dozens of city pages, and blog posts, ElectricPe potentially has thousands of indexable URLs that Google simply cannot discover. Only ~15 pages are indexed when 500-2,000+ should be.</p>
+
+  <p><strong>Issue #2: 3-Way URL Cannibalization.</strong> Three separate URLs compete for "EV charging stations" — <em>/evchargingstations/</em>, <em>/ev-charging-station/</em>, and <em>/ev-charging-stations/</em>. Google cannot determine which to rank. Ranking signals are split three ways. None rank well.</p>
+
+  <p><strong>Issue #3: Thin, JavaScript-Dependent Content.</strong> Critical pages render primarily through client-side JavaScript. The EV Charging Stations page shows "content appears to be mostly CSS/JS" to crawlers. Googlebot may see little to no indexable content on key money pages.</p>
+
+  <h2>2.2 Category Scores</h2>
+
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Score</th><th>Status</th><th>Key Issue</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Crawlability & Indexation</td><td>25/100</td><td>Critical</td><td>No sitemap, ~15 pages indexed</td></tr>
+      <tr><td>URL Structure</td><td>30/100</td><td>Critical</td><td>3-way cannibalization, trailing slash inconsistency</td></tr>
+      <tr><td>On-Page SEO</td><td>40/100</td><td>Poor</td><td>Missing H1s, meta descriptions, weak titles</td></tr>
+      <tr><td>Content Quality & E-E-A-T</td><td>45/100</td><td>Poor</td><td>Blog has 2 posts in 2+ years, no author bios</td></tr>
+      <tr><td>Core Web Vitals</td><td>50/100</td><td>Needs Work</td><td>High LCP/CLS risk, heavy JS, unoptimized images</td></tr>
+      <tr><td>Mobile Readiness</td><td>55/100</td><td>Needs Work</td><td>Touch targets unverified, excessive inline CSS</td></tr>
+      <tr><td>Security & HTTPS</td><td>80/100</td><td>Good</td><td>SSL valid, but www subdomain shows security warning</td></tr>
+      <tr><td>Structured Data</td><td>45/100</td><td>Poor</td><td>Missing BlogPosting, LocalBusiness, Product schema</td></tr>
+    </tbody>
+  </table>
+
+  <h2>2.3 Title Tag & Meta Description Audit</h2>
+
+  <table>
+    <thead>
+      <tr><th>Page</th><th>Current Title</th><th>Title Verdict</th><th>Meta Description</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Homepage</td><td>"ElectricPe: Your One-Stop EV Solution..."</td><td>Pass (63 chars)</td><td>Fail — truncated at ~125 chars</td></tr>
+      <tr><td>About</td><td>"ElectricPe: Revolutionising Electric Mobility..."</td><td>Pass (54 chars)</td><td>Pass</td></tr>
+      <tr><td>Charging Stations</td><td>"Electric Stations - ElectricPe"</td><td>Fail — missing "EV" keyword</td><td>Fail — missing entirely</td></tr>
+      <tr><td>Blog</td><td>"Blogs - ElectricPe"</td><td>Fail — zero keyword value</td><td>Fail — missing entirely</td></tr>
+      <tr><td>Press</td><td>"Latest Updates and Get Informed..."</td><td>Fail — awkward phrasing</td><td>Not verified</td></tr>
+    </tbody>
+  </table>
+
+  <h2>2.4 SEO Action Plan — Critical Fixes (Week 1-2)</h2>
+
+  <table>
+    <thead>
+      <tr><th>Fix</th><th>Impact</th><th>Effort</th><th>Expected Outcome</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Generate + submit XML sitemaps via next-sitemap</td><td>Enables indexing of 500+ pages</td><td>1-2 hours</td><td>10-50x more pages discoverable by Google</td></tr>
+      <tr><td>Consolidate to /ev-charging-stations/. 301 redirect other two.</td><td>Consolidates ranking power</td><td>30 minutes</td><td>Most valuable keyword cluster unified</td></tr>
+      <tr><td>Fix SSR — ensure full HTML delivered before JS</td><td>Makes money pages indexable</td><td>4-8 hours</td><td>Commercial pages become rank-ready</td></tr>
+      <tr><td>Fix blog rendering + add BlogPosting schema</td><td>Blog content enters Google index</td><td>4-6 hours</td><td>Blog becomes content marketing asset</td></tr>
+      <tr><td>Write meta descriptions for all key pages</td><td>5-15% CTR improvement</td><td>1 hour</td><td>Better SERP appearance immediately</td></tr>
+      <tr><td>Add H1 tags to Charging Stations + Blog pages</td><td>Clarifies page topics for Google</td><td>10 minutes</td><td>Immediate ranking signal boost</td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Success signal:</strong> 200+ indexed pages within 60 days of sitemap submission. Top 20 ranking for "EV charging stations" within 90 days.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 4</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                   PAGE 5: GTM AUDIT                               -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body compact">
+  <h1>3. GTM & Tracking Audit — Score: 12/100</h1>
+
+  <h2>3.1 The Core Problem</h2>
+
+  <p><strong>0 of 22 GTM checks passed.</strong> No Google Tag Manager container is installed. No Google Analytics 4 property exists. No structured data layer. No conversion tracking for any advertising platform. Every tracking change requires a developer to modify the Next.js codebase, rebuild, and redeploy — a 3-7 day cycle vs. minutes with GTM.</p>
+
+  <h2>3.2 Current Tracking Inventory</h2>
+
+  <p><strong>What we found:</strong> WebEngage SDK v6.0 (Account ID: in~~2024c260) — functioning as primary CDP but cannot feed conversion data to ad platforms. Razorpay checkout — active but payment events not forwarded to analytics. Facebook Pixel — partial reference found (fbq() function, FacebookPixelEvents component) but unverified. WhatsApp widget — present but untracked.</p>
+
+  <p><strong>What's missing:</strong> Google Tag Manager, Google Analytics 4, Google Ads conversion tag, Google Ads Conversion Linker, Meta Conversions API (CAPI), LinkedIn Insight Tag, TikTok Pixel, structured dataLayer, Consent Management Platform, cross-domain tracking with Razorpay.</p>
+
+  <h2>3.3 Score Breakdown</h2>
+
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Score</th><th>Max</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>GTM Container Setup</td><td>0</td><td>15</td><td>Not Installed</td></tr>
+      <tr><td>Data Layer Implementation</td><td>0</td><td>20</td><td>Not Found</td></tr>
+      <tr><td>Google Analytics 4</td><td>0</td><td>15</td><td>Not Installed</td></tr>
+      <tr><td>Conversion Tracking</td><td>3</td><td>15</td><td>Minimal (WebEngage only)</td></tr>
+      <tr><td>Meta Pixel & CAPI</td><td>4</td><td>10</td><td>Partial (fbq reference found)</td></tr>
+      <tr><td>Event Configuration</td><td>2</td><td>10</td><td>Minimal</td></tr>
+      <tr><td>Privacy & Consent</td><td>0</td><td>5</td><td>Not Found</td></tr>
+      <tr><td>Cross-Platform Integration</td><td>0</td><td>5</td><td>Not Configured</td></tr>
+      <tr><td>Tag Performance & QA</td><td>3</td><td>5</td><td>Cannot Assess</td></tr>
+    </tbody>
+  </table>
+
+  <h2>3.4 The Test Ride Measurement Gap</h2>
+
+  <p>The Rs 299 test ride is ElectricPe's most powerful conversion mechanism. A customer who takes a test ride is estimated to be <strong>10x more likely</strong> to purchase an EV. Yet this critical event has zero connection to any advertising measurement.</p>
+
+  <p><strong>Current state (broken):</strong> Ad Click → ??? → Website Visit (maybe WebEngage) → ??? → Test Ride Page → ??? → Booking → Razorpay → ???. No data flows back to Google Ads or Meta. Smart Bidding has no signal to optimize. You cannot calculate cost-per-test-ride from any channel.</p>
+
+  <p><strong>Required state (fixed):</strong> Ad Click → Landing Page (GA4: page_view) → Test Ride Page (GA4: view_item) → Booking Form Open (GA4: begin_checkout) → Form Submit (Google Ads: Conversion / Meta: Lead) → Razorpay Payment (GA4: purchase / Enhanced Conversion) → Data feeds back → Algorithms optimize → CPA decreases.</p>
+
+  <h2>3.5 Revenue Impact: What GTM Implementation Unlocks</h2>
+
+  <table>
+    <thead>
+      <tr><th>Capability</th><th>Current</th><th>After GTM</th><th>Revenue Impact</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Google Ads with Smart Bidding</td><td>Cannot run</td><td>Fully optimized campaigns</td><td>Rs 3-10L/month in new test rides</td></tr>
+      <tr><td>Meta Ads with conversion optimization</td><td>Blind/partially working</td><td>Optimized for bookings</td><td>Rs 2-5L/month in new test rides</td></tr>
+      <tr><td>Retargeting (website visitors)</td><td>Zero retargeting</td><td>30-day visitor remarketing</td><td>15-25% conversion lift</td></tr>
+      <tr><td>Lookalike audiences (Meta)</td><td>Cannot build</td><td>1% lookalike from customers</td><td>2-3x better CPA</td></tr>
+      <tr><td>Cross-channel attribution</td><td>Zero visibility</td><td>GA4 Data-Driven Attribution</td><td>20-30% budget savings</td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Cost of implementation:</strong> One-time Rs 1.5-4 Lakh. <strong>Payback period:</strong> Under 30 days at conservative estimates.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 5</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                  PAGE 6: ADS & MARKETING AUDIT                    -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body compact">
+  <h1>4. Ads & Marketing Audit — Score: 8/100</h1>
+
+  <h2>4.1 The Core Problem</h2>
+
+  <p>Based on all observable evidence, ElectricPe has <strong>essentially zero paid advertising infrastructure</strong>. No Meta Pixel, no Google Ads conversion tracking, no LinkedIn Campaign Manager activity, no TikTok pixel, and no evidence of active paid campaigns on any platform. Google Ads scores 0/100. Meta Ads scores 0/100. LinkedIn, YouTube, and TikTok all score 0/100. The aggregate score of 8 reflects only organic positives (WebEngage, app rating, WhatsApp widget).</p>
+
+  <p>This is not a crisis — it means ElectricPe has grown entirely through organic, partnership-driven, and physical channels. However, with competitors like Statiq, Tata Power, and Ather actively marketing, <strong>the absence of paid acquisition is a growing strategic vulnerability.</strong></p>
+
+  <h2>4.2 Why Google Ads Should Be Priority #1</h2>
+
+  <p><strong>Thesis:</strong> ElectricPe's customers are first-time EV buyers and price-conscious urban professionals actively researching high-consideration purchases. They search Google daily for "best electric scooter under 1 lakh," "EV test ride Bangalore," "electric car financing India." This is high-intent, purchase-ready traffic. ElectricPe is currently invisible to all of it.</p>
+
+  <p><strong>Why Google first:</strong> Produces leads in days, not months. India's EV keyword competition is low (CPC likely Rs 20-80/click). The Rs 299 test ride is a perfect paid ads CTA. ElectricPe's Google Maps partnership creates a unique Local campaigns advantage.</p>
+
+  <h2>4.3 Recommended Campaign Architecture</h2>
+
+  <table>
+    <thead>
+      <tr><th>Campaign</th><th>Type</th><th>Daily Budget</th><th>Goal</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Brand Protection</td><td>Google Search</td><td>Rs 500-1,000</td><td>Own brand SERP; prevent competitor bidding</td></tr>
+      <tr><td>EV Purchase Intent</td><td>Google Search</td><td>Rs 3,000-5,000</td><td>"buy electric scooter [city]" — high intent</td></tr>
+      <tr><td>Charging Network</td><td>Google Search</td><td>Rs 1,500-2,500</td><td>App installs + station discovery</td></tr>
+      <tr><td>Retargeting</td><td>Google Display/Demand Gen</td><td>Rs 1,000-2,000</td><td>Re-engage 30-day website visitors</td></tr>
+      <tr><td>Test Ride Lead Gen</td><td>Meta — Leads</td><td>Rs 500-1,000</td><td>Rs 299 test ride bookings</td></tr>
+      <tr><td>App Install</td><td>Meta — App Installs</td><td>Rs 300-500</td><td>Leverage 4.4 rating</td></tr>
+      <tr><td>YouTube TrueView</td><td>YouTube — Video</td><td>Rs 500-1,000</td><td>Intercept EV research journey</td></tr>
+      <tr><td>LinkedIn B2B</td><td>LinkedIn — Lead Gen</td><td>Rs 2,000-3,000</td><td>Fleet + CMS leads (Month 2+)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>4.4 Bidding Strategy (Cold Start)</h2>
+
+  <p>ElectricPe starts with 0 conversions. Per the bidding strategy decision tree:</p>
+
+  <ul>
+    <li><strong>0 conversions:</strong> Maximize Clicks (Manual CPC acceptable). Max CPC cap: Rs 150-300/click.</li>
+    <li><strong>After 15 conversions:</strong> Maximize Conversions.</li>
+    <li><strong>After 30 conversions:</strong> Target CPA at 1.1-1.2x historical CPA.</li>
+    <li><strong>CPA target:</strong> Rs 800-1,500 per test ride booking.</li>
+  </ul>
+
+  <h2>4.5 Social Media Gap</h2>
+
+  <p>ElectricPe's social media presence is dramatically behind competitors. Instagram: 2,336 followers (vs Ather's 800K+). No YouTube channel exists. Blog has 2 posts in 2+ years. LinkedIn presence is minimal. Club Electric's community forum is overrun with loan scam spam that Google is indexing under the ElectricPe domain — this should be the #1 community growth engine, not a liability.</p>
+
+  <p><strong>Success signal:</strong> First paid ads running within 3 weeks of GTM deployment. CPA below Rs 1,200 per test ride within 60 days.</p>
+
+  <p><strong>Kill signal:</strong> If CPA exceeds Rs 2,500 after 90 days of optimization, the demand capture thesis needs revision.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 6</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                  PAGE 7: 90-DAY GROWTH BLUEPRINT                  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body compact">
+  <h1>5. The 90-Day Growth Blueprint</h1>
+
+  <p>Rather than a linear sequence, the execution architecture runs three workstreams in parallel. Technical fixes enable everything else. Google Ads generate leads and keyword data immediately. SEO content compounds over time.</p>
+
+  <table>
+    <thead>
+      <tr><th>Workstream</th><th>Week 1-2</th><th>Week 3-4</th><th>Week 5-8</th><th>Week 9-12</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>GTM & Tracking (Foundation)</strong></td>
+        <td>GTM install, data layer, GA4 config, WebEngage migration</td>
+        <td>Google Ads conversions, Meta Pixel fix + CAPI, Enhanced Conversions</td>
+        <td>LinkedIn Insight Tag, consent management, Clarity, cross-domain</td>
+        <td>Ongoing QA, tag audit, optimization</td>
+      </tr>
+      <tr>
+        <td><strong>SEO (Organic Growth)</strong></td>
+        <td>Sitemap generation, 301 redirects for cannibalization</td>
+        <td>Meta descriptions, H1 tags, BlogPosting schema, title rewrites</td>
+        <td>City landing pages (10-15 cities), Organization schema, blog content</td>
+        <td>Content publishing (2-4/month), internal linking, monitoring</td>
+      </tr>
+      <tr>
+        <td><strong>Paid Ads (Acquisition)</strong></td>
+        <td>Account setup, keyword research, landing pages</td>
+        <td>Google Search + Meta Lead Gen launch (Rs 3L/mo)</td>
+        <td>YouTube TrueView, retargeting, A/B testing</td>
+        <td>Smart Bidding, PMax, Advantage+, scaling to Rs 6-10L/mo</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>5.1 Decision Gates</h2>
+
+  <p>Instead of rigid phases, the strategy uses decision gates — specific moments where data triggers a decision:</p>
+
+  <table>
+    <thead>
+      <tr><th>Gate</th><th>Timing</th><th>Data Required</th><th>Decision</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Gate 1: GTM Verification</td><td>Day 14</td><td>GTM health score from audit</td><td>If 75+: proceed to ads. If &lt;50: extend foundation.</td></tr>
+      <tr><td>Gate 2: Ads Viability</td><td>Day 45</td><td>CPA from Google + Meta</td><td>If CPA &lt; Rs 1,200: scale budget. If Rs 1,200-2,000: optimize. If &gt; Rs 2,500: pivot strategy.</td></tr>
+      <tr><td>Gate 3: SEO Traction</td><td>Day 60</td><td>Indexed pages + keyword movement</td><td>Which topics drive engagement? Double down on winners.</td></tr>
+      <tr><td>Gate 4: Scale Decision</td><td>Day 90</td><td>Full funnel data across channels</td><td>Budget allocation for months 4-6. Which channels get more investment.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>5.2 Budget Architecture</h2>
+
+  <table>
+    <thead>
+      <tr><th>Platform</th><th>Month 1-3 (Monthly)</th><th>Month 4-6 (Monthly)</th><th>Budget Share (Scaled)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Google Ads (Search + PMax)</td><td>Rs 1,00,000</td><td>Rs 2,00,000</td><td>33%</td></tr>
+      <tr><td>Meta Ads (Lead Gen + App)</td><td>Rs 80,000</td><td>Rs 1,80,000</td><td>30%</td></tr>
+      <tr><td>YouTube Ads</td><td>Rs 30,000</td><td>Rs 80,000</td><td>13%</td></tr>
+      <tr><td>LinkedIn Ads (B2B)</td><td>Rs 50,000</td><td>Rs 1,00,000</td><td>17%</td></tr>
+      <tr><td>TikTok (test)</td><td>Rs 0</td><td>Rs 40,000</td><td>7%</td></tr>
+      <tr><td><strong>Total Ad Spend</strong></td><td><strong>Rs 2,60,000</strong></td><td><strong>Rs 6,00,000</strong></td><td><strong>100%</strong></td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>The key insight:</strong> All three workstreams execute in parallel. Technical fixes enable everything else. Google Ads generate leads and keyword data immediately. SEO compounds over time. Social proof (80K community, 130+ mobility centre reviews) is the force multiplier for the entire strategy.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 7</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--                   PAGE 8: RISKS + COMPLIANCE                      -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body compact">
+  <h1>6. Critical Risks & Compliance</h1>
+
+  <h2>6.1 Risk Mitigation</h2>
+
+  <table>
+    <thead>
+      <tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Mitigation</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Google Ads CPA exceeds target</td><td>Medium</td><td>High</td><td>Start with Rs 3L/month exact match only. Weekly search term audits for 8 weeks. Kill signal at Rs 2,500 CPA after 90 days.</td></tr>
+      <tr><td>GTM implementation delays</td><td>Medium</td><td>Critical</td><td>GTM install is 4 hours of developer time. If internal dev bandwidth is constrained, we handle implementation directly.</td></tr>
+      <tr><td>Competitor response to ads</td><td>High</td><td>Medium</td><td>Brand protection campaign from Day 1. Diversify across Google + Meta + YouTube so no single platform dependency.</td></tr>
+      <tr><td>Community forum spam hurting SEO</td><td>High</td><td>High</td><td>Google is indexing loan scam spam under the ElectricPe domain. Immediate cleanup required. Add noindex to spam or migrate forum to separate subdomain.</td></tr>
+      <tr><td>DPDPA compliance exposure</td><td>Medium</td><td>High</td><td>5 tracking tools fire without cookie consent. Enforcement begins May 2027. Deploy consent management platform in Phase 1.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6.2 Privacy & Consent</h2>
+
+  <p>India's Digital Personal Data Protection Act (DPDPA) 2023 requires clear notice before collecting personal data and consent before processing for marketing. <strong>ElectricPe currently has no visible consent mechanism for tracking technologies.</strong> With investors like Blume Ventures and Green Frontier Capital on the cap table, this is the kind of compliance risk that comes up during due diligence.</p>
+
+  <p><strong>Recommended consent stack:</strong> GTM Consent Mode v2 with CookieYes or OneTrust (free tier). Default: denied for analytics/ad storage. On accept: grant all consent signals. On decline: GA4 fires with cookieless pings. Google Ads consent mode modeling recovers ~70% of declined-consent conversions.</p>
+
+  <h1>7. Service Proposal & Investment</h1>
+
+  <h2>7.1 Three Engagement Options</h2>
+
+  <h3>Option A: GTM + Tracking Only (Foundation)</h3>
+
+  <p><em>For teams that want to handle ads in-house but need the measurement infrastructure.</em></p>
+
+  <p><strong>Deliverables:</strong> Full GTM container on Next.js. Custom data layer (EV-specific: products, test rides, charging, financing). GA4 configuration with conversion events. Meta Pixel fix + CAPI deployment. Google Ads conversion setup. LinkedIn Insight Tag. DPDPA-compliant consent management. Data layer documentation for dev team. 30-day post-launch support.</p>
+
+  <p><strong>One-time investment: Rs 2,50,000. Timeline: 3-4 weeks.</strong></p>
+
+  <h3>Option B: Full-Stack Digital Growth (Recommended)</h3>
+
+  <p><em>End-to-end: tracking + SEO + paid ads + ongoing optimization.</em></p>
+
+  <p><strong>Deliverables:</strong> Everything in Option A, plus: SEO quick wins + content strategy. Google Ads management (Brand + Intent + Retargeting). Meta Ads management (Lead Gen + App Install + Retargeting). YouTube Ads setup. LinkedIn B2B campaigns (Month 2+). Looker Studio real-time dashboard. Monthly reporting + optimization. A/B testing program.</p>
+
+  <p><strong>Setup fee: Rs 2,50,000. Monthly retainer: Rs 1,50,000/month. Ad spend: Rs 3-10L/month (paid directly to platforms). Minimum commitment: 6 months.</strong></p>
+
+  <h3>Option C: Performance Partnership</h3>
+
+  <p><em>We put skin in the game. We only win when you win.</em></p>
+
+  <p><strong>Structure:</strong> Reduced retainer of Rs 75,000/month. Setup fee: Rs 2,50,000. Performance bonus: 10% of attributed revenue above Rs 10L/month baseline. Joint GA4 dashboard as source of truth. Minimum commitment: 12 months.</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 8</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--              PAGE 9: ROI + NEXT STEPS + CLOSING                   -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="page page-body">
+  <h1>8. ROI Projection & Next Steps</h1>
+
+  <h2>8.1 Return on Investment (Year 1)</h2>
+
+  <table>
+    <thead>
+      <tr><th>Scenario</th><th>Total Investment (Year 1)</th><th>Expected Return</th><th>ROI</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Conservative</td><td>Rs 56.5L (setup + retainer + ads)</td><td>Rs 1.8 Cr</td><td>3.2x</td></tr>
+      <tr><td>Moderate</td><td>Rs 80L</td><td>Rs 6 Cr</td><td>7.5x</td></tr>
+      <tr><td>Aggressive</td><td>Rs 140.5L</td><td>Rs 14.4 Cr</td><td>10.2x</td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>The math is straightforward:</strong> 500-1,500 monthly test rides from paid ads x 10-20% purchase conversion rate x Rs 80K-1.5L average EV value = Rs 15L-1.2Cr/month in attributable revenue. Even at the conservative end, the ROI is 3x+.</p>
+
+  <h2>8.2 The Five Reasons to Start This Week</h2>
+
+  <ul>
+    <li><strong>Your competitors won't wait.</strong> Statiq raised $18M and is expanding to 20,000 chargers. Ather is spending heavily on YouTube and Instagram. Every week you delay, they capture customers that should be yours.</li>
+    <li><strong>You're expanding to 50+ Centres.</strong> Each new Mobility Centre is a digital marketing opportunity. With proper tracking and geo-targeted campaigns, you can generate foot traffic from Day 1 — not month 3.</li>
+    <li><strong>The test ride offer is a goldmine.</strong> "Rs 299 test ride" is one of the best paid advertising CTAs in the Indian EV space. Low friction, clear value, high conversion potential. It's sitting completely unused.</li>
+    <li><strong>80,000 community members = instant scale.</strong> Upload your Club Electric member list to Meta. Build a 1% lookalike. You instantly have 3-5 million targetable users who look like your best customers. This takes 10 minutes and costs Rs 0.</li>
+    <li><strong>Every Razorpay transaction is unattributed.</strong> You're selling EVs and processing payments, but you can't tell which marketing channels drove those sales. Proper tracking turns this from a mystery into a profit lever.</li>
+  </ul>
+
+  <h2>8.3 Immediate Next Steps — First 14 Days</h2>
+
+  <p><strong>Days 1-3:</strong> 30-minute strategy call to walk through this audit and answer questions. Choose engagement option (A, B, or C). Sign off and kick off.</p>
+
+  <p><strong>Days 3-7:</strong> GTM container installed on all Next.js pages. Data layer initialized. GA4 configuration deployed. WebEngage migrated from inline to GTM async loading.</p>
+
+  <p><strong>Days 7-10:</strong> Google Ads conversion tracking live. Meta Pixel verified + CAPI deployed. Domain verified in Meta Business Manager. LinkedIn Insight Tag installed.</p>
+
+  <p><strong>Days 10-14:</strong> First paid campaigns launched (Google Brand + Search, Meta Lead Gen). Consent management deployed. Cross-domain tracking with Razorpay configured. First data flowing into dashboards.</p>
+
+  <p><strong>What makes this proposal different:</strong> This isn't a template. We've already audited your entire website, identified your WebEngage ID (in~~2024c260), found your partially deployed Facebook Pixel, mapped your Next.js tech stack and CDN, analyzed your 3 cannibalized charging station URLs, benchmarked you against Statiq, Tata Power, Ather, Ola, and ChargeZone, designed data layer code specific to your test ride booking flow, and built campaign structures with India-specific CPC benchmarks. We didn't Google "EV company audit template." We did the work.</p>
+
+  <h1>9. Strategic Thesis, Restated</h1>
+
+  <p>ElectricPe has the scale to dominate organic search and paid acquisition in India's EV market. It simply needs to make that scale visible to the digital world.</p>
+
+  <p>The super-app model (Buy + Charge + Finance + Service) is genuinely unique. No competitor combines all four. But a great product with broken tracking is like a Formula 1 car with no dashboard — you're fast, but you're driving blind. We add the dashboard.</p>
+
+  <p>Execute with discipline. Measure with rigor. Adjust with data. The market is ready. The product is ready. The distribution engine is what's missing, and this playbook builds it.</p>
+
+  <p style="text-align:center;margin-top:40px;color:#666666;font-size:10pt;">END OF PLAYBOOK</p>
+  <p style="text-align:center;color:#999999;font-size:9pt;">Confidential — Prepared for ElectricPe Leadership Team — March 2026</p>
+  <p style="text-align:center;color:#999999;font-size:9pt;">Phone Geetha &nbsp;|&nbsp; work.samsolanki@gmail.com &nbsp;|&nbsp; www.sakshamsolanki.com</p>
+
+  <div class="page-footer">
+    <span>Confidential — Phone Geetha</span>
+    <span>Page 9</span>
+    <span>ElectricPe Digital Audit — March 2026</span>
+  </div>
+</div>
+
+</body>
+</html>
